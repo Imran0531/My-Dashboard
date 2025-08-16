@@ -1,0 +1,67 @@
+.dashboard-container {
+  padding: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.btn-new {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-new:hover {
+  background-color: #0056b3;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.dashboard-table th {
+  background-color: #f2f2f2;
+  color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.status.in-progress {
+  background-color: #ffeb3b;
+  color: #000;
+}
+
+.status.pending {
+  background-color: #ff9800;
+  color: white;
+}
+
+.status.completed {
+  background-color: #4caf50;
+  color: white;
+}
+
+.status.blocked {
+  background-color: #f44336;
+  color: white;
+}
